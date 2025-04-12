@@ -5,9 +5,9 @@ from streamlit_extras.let_it_rain import rain
 from twilio.rest import Client
 
 # ---------- Twilio Setup ----------
-TWILIO_ACCOUNT_SID = "ACc696c84f706cf7faa360e53789b94d9a"
-TWILIO_AUTH_TOKEN = "6971d03eb7e65acc06855bf97c380090"
-TWILIO_PHONE_NUMBER = "+18154768116"
+TWILIO_ACCOUNT_SID = ""
+TWILIO_AUTH_TOKEN = ""
+TWILIO_PHONE_NUMBER = ""
 twilio_client = Client(TWILIO_ACCOUNT_SID, TWILIO_AUTH_TOKEN)
 
 # ---------- Background Styling ----------
